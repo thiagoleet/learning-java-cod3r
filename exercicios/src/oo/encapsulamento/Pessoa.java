@@ -5,6 +5,10 @@ public class Pessoa {
 
     private String nome;
 
+
+
+    private String sobrenome;
+
     public Pessoa(int idade, String nome) {
         this.setIdade(idade);
         this.setNome(nome);
@@ -34,6 +38,18 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "Olá, eu sou " + this.getNome() + " e tenho " + this.getIdade() + " anos";
+        return "Olá, eu sou " + this.getNomeCompleto() + " e tenho " + this.getIdade() + " anos";
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+    public String getNomeCompleto() {
+        return this.getNome() + " " + this.getSobrenome();
     }
 }
