@@ -10,8 +10,8 @@ public class Pedro extends Ana {
         // formaDeFalar
         // todosSabem
 
-        System.out.println(mae.segredo); // PRIVADO: não consegue acessar
-        System.out.println(mae.facoDentroDeCasa); // Só acessado por pacote
+//        System.out.println(mae.segredo); // PRIVADO: não consegue acessar
+//        System.out.println(mae.facoDentroDeCasa); // Só acessado por pacote
         System.out.println(this.formaDeFalar); // Acessado por herança
         System.out.println(mae.todosSabem);
         System.out.println(new Ana().todosSabem);

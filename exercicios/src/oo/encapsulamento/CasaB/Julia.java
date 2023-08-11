@@ -11,9 +11,9 @@ public class Julia {
         // formaDeFalar
         // todosSabem
 
-        System.out.println(sogra.segredo); // PRIVADO: não consegue acessar
-        System.out.println(sogra.facoDentroDeCasa);
-        System.out.println(sogra.formaDeFalar);
+//        System.out.println(sogra.segredo); // PRIVADO: não consegue acessar
+//        System.out.println(sogra.facoDentroDeCasa);
+//        System.out.println(sogra.formaDeFalar);
         System.out.println(sogra.todosSabem);
     }
 }
