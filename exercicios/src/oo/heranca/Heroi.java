@@ -1,6 +1,11 @@
 package oo.heranca;
 
-public class Heroi extends Jogador{
+public class Heroi extends Jogador {
+
+
+    Heroi(int x, int y) {
+        super(x, y);
+    }
 //    boolean atacar(Jogador oponente) {
 //        int deltaX = Math.abs(x - oponente.x);
 //        int deltaY = Math.abs(y - oponente.y);
@@ -20,6 +25,6 @@ public class Heroi extends Jogador{
         boolean ataque1 = super.atacar(oponente);
         boolean ataque2 = super.atacar(oponente);
 
-        return  ataque1 || ataque2;
+        return ataque1 || ataque2;
     }
 }

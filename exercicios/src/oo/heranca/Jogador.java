@@ -5,6 +5,15 @@ public class Jogador {
     int y;
     int vida = 100;
 
+//    Jogador() {
+//        this(0,0);
+//    }
+
+    Jogador(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     boolean andar(Direcao direcao) {
         switch (direcao) {
             case NORTE -> y--;
