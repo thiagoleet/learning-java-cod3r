@@ -10,4 +10,13 @@ public class Produto {
     final String nome;
     final double preco;
     final double desconto;
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + " (R$ " + getPrecoFinal() + ")";
+    }
+
+    public double getPrecoFinal() {
+        return preco * (1 - desconto);
+    }
 }
