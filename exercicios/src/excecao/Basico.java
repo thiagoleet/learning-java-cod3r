@@ -1,7 +1,5 @@
 package excecao;
 
-import streams.Aluno;
-
 public class Basico {
     public static void main(String[] args) {
 
