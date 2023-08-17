@@ -1,4 +1,4 @@
-package excecao.personalizada;
+package excecao.personalizadaA;
 
 import excecao.Aluno;
 
