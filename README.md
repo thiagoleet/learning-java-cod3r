@@ -38,10 +38,3 @@ Este repositório representa o meu acompanhamento do curso [Java 2022 COMPLETO: 
 - ⚙️ Contact me on [LinkedIn](https://www.linkedin.com/in/thiagofmleite/)
 - 🚶‍♂️Follow me on [Twitter](https://twitter.com/thiagoleite), [Instagram](https://instagram.com/thiagoleet) and [Twitch](https://twitch.tv/thiagoleet).
 
-## My stats
-
-[![ThiagoLeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=thiagoleet&show_icons=true&theme=radical&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thiagoleet&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
----
