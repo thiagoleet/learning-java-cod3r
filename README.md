@@ -6,20 +6,21 @@ Este repositório representa o meu acompanhamento do curso [Java 2022 COMPLETO: 
 
 ## Conteúdo do curso
 
-- Algoritmo e Estrutura de Dados
-- Fundamentos da Linguagem Java
-- Estruturas de Controle
-- Classes, Objetos, Métodos
-- Orientação a Objeto
-- Encapsulamento, Herança, Polimorfismo e Abstração
-- Lambdas
-- Stream API
-- Tratamento de Exceções
-- JavaFX
-- Banco de Dados Relacional
-- Bando de Dados NÃO Relacional (NoSQL)
-- JPA (Hibernate)
-- Spring Boot
+- [x] Algoritmo e Estrutura de Dados
+- [x] Fundamentos da Linguagem Java
+- [x] Estruturas de Controle
+- [x] Classes, Objetos, Métodos
+- [x] Orientação a Objeto
+- [x] Encapsulamento, Herança, Polimorfismo e Abstração
+- [x] Lambdas
+- [x] Stream API
+- [x] Tratamento de Exceções
+- [ ] Modularidade em Java
+- [ ] JavaFX
+- [x] Banco de Dados Relacional
+- [ ] Bando de Dados NÃO Relacional (NoSQL)
+- [ ] JPA (Hibernate)
+- [ ] Spring Boot
 
 ## Repositórios adicionais
 
