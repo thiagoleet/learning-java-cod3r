@@ -20,7 +20,7 @@ public class DAO {
             adicionarAtributos(statement, atributos);
 
             if (statement.executeUpdate() > 0) {
-                ResultSet resultSet = statement.getResultSet();
+                ResultSet resultSet = statement.getGeneratedKeys();
 
                 if (resultSet.next()) {
                     return resultSet.getInt(1);
@@ -58,5 +58,15 @@ public class DAO {
 
         connection = FabricaConexao.getConexao();
         return connection;
+    }
+
+    public void close() {
+        try {
+            getConnection().close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            connection = null;
+        }
     }
 }
