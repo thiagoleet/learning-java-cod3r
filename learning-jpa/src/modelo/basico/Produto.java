@@ -49,4 +49,17 @@ public class Produto {
     public void setPreco(Double preco) {
         this.preco = preco;
     }
+
+
+    @Override
+    public String toString() {
+        return new StringBuilder()
+                .append("Produto: ")
+                .append(this.getId())
+                .append(" | ")
+                .append(this.getNome())
+                .append(" | ")
+                .append(this.getPreco())
+                .toString();
+    }
 }
