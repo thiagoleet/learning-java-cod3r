@@ -11,10 +11,18 @@ public class Assento {
 
     private  String nome;
 
+    @OneToOne(mappedBy = "assento")
+    private Cliente cliente;
+
     public Assento() {}
 
     public Assento(String nome) {
         this.nome = nome;
+    }
+
+    public Assento(String nome, Cliente cliente) {
+        this.nome = nome;
+        this.cliente = cliente;
     }
 
     public String getNome() {
@@ -23,5 +31,13 @@ public class Assento {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 }
