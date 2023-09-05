@@ -1,1 +1,4 @@
-module app.financeiro {}
+module app.financeiro {
+    requires java.base;
+    requires app.calculo;
+}

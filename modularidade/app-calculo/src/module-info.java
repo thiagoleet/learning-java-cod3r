@@ -1,1 +1,3 @@
-module app.calculo {}
+module app.calculo {
+    exports me.thiagoleite.app.calculo;
+}
