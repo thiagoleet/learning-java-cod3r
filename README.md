@@ -19,7 +19,7 @@ Este repositório representa o meu acompanhamento do curso [Java 2022 COMPLETO: 
 - [ ] JavaFX
 - [x] Banco de Dados Relacional
 - [ ] Bando de Dados NÃO Relacional (NoSQL)
-- [ ] JPA (Hibernate)
+- [x] Java Persistence Api (Hibernate)
 - [ ] Spring Boot
 
 ## Repositórios adicionais
