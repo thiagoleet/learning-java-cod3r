@@ -1,8 +1,12 @@
 module app.calculo {
     requires app.loggin;
-    exports me.thiagoleite.app.calculo;
 
-    exports me.thiagoleite.app.calculo.interno
-            to app.financeiro;
+
+    requires app.api;
+    provides me.thiagoleite.app.Calculadora
+            with me.thiagoleite.app.calculo.CalculadoraImpl;
+
+
+    exports me.thiagoleite.app.calculo;
 
 }

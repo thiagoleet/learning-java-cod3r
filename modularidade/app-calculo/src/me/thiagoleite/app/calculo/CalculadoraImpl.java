@@ -1,9 +1,10 @@
 package me.thiagoleite.app.calculo;
 
+import me.thiagoleite.app.Calculadora;
 import me.thiagoleite.app.calculo.interno.OperacoesAritimeticas;
 import me.thiagoleite.app.loggin.Logger;
 
-public class Calculadora {
+public class CalculadoraImpl implements Calculadora {
     private OperacoesAritimeticas op = new OperacoesAritimeticas();
 
     public double soma(double... nums) {
