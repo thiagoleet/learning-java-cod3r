@@ -1,4 +1,4 @@
-package me.thiagoleite.exerciciossb.models;
+package me.thiagoleite.exerciciossb.model.entities;
 
 public class Cliente {
     private int id;

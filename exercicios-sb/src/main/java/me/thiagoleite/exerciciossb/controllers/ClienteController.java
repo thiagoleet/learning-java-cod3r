@@ -1,6 +1,6 @@
 package me.thiagoleite.exerciciossb.controllers;
 
-import me.thiagoleite.exerciciossb.models.Cliente;
+import me.thiagoleite.exerciciossb.model.entities.Cliente;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
