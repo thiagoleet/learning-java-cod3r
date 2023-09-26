@@ -1,5 +1,6 @@
 package me.thiagoleite.exerciciossb.controllers;
 
+import jakarta.validation.Valid;
 import me.thiagoleite.exerciciossb.model.entities.Produto;
 import me.thiagoleite.exerciciossb.model.repositories.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ public class ProdutoController {
     private ProdutoRepository produtoRepository;
 
     @PostMapping
-    public @ResponseBody Produto novoProduto(Produto produto) {
+    public @ResponseBody Produto novoProduto(@Valid Produto produto) {
         produtoRepository.save(produto);
         return produto;
     }
