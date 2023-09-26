@@ -4,8 +4,9 @@ import jakarta.validation.Valid;
 import me.thiagoleite.exerciciossb.model.entities.Produto;
 import me.thiagoleite.exerciciossb.model.repositories.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.Optional;
 
 @RestController
@@ -24,6 +25,12 @@ public class ProdutoController {
     @GetMapping
     public Iterable<Produto> obterProdutos() {
         return produtoRepository.findAll();
+    }
+
+    @GetMapping(path = "/pagina/{numeroPagina}")
+    public Iterable<Produto> obterProdutosPorPagina(@PathVariable int numeroPagina) {
+        Pageable page = PageRequest.of(numeroPagina,1);
+        return produtoRepository.findAll(page);
     }
 
     @GetMapping(path = "/{id}")
